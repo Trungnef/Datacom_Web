@@ -9,6 +9,7 @@ import MainSectionOne from "./components/main-section/mainSectionOne";
 import MainSectionTwo from "./components/main-section/mainSectionTwo";
 import NewArrivalItem from "./components/new-arrival/newArrivalItem";
 import OurProduct from "./components/our-product/ourProduct";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <MainSectionTwo />
     <NewArrivalItem />
     <OurProduct />
+    <Footer />
     <App />
   </React.StrictMode>
 );
