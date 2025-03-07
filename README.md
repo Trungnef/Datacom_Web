@@ -1,9 +1,9 @@
-# CPG - Group B
+# CPG Matching Platform - Group B
 
 ## 🚀 Project Overview | プロジェクト概要
-This repository contains the source code for the **CPG - Group B** web application. Follow the steps below to clone, install dependencies, and run the project locally.
+This repository contains the source code for the **CPG Matching Platform - Group B** web application. Follow the steps below to clone, install dependencies, and run the project locally.
 
-このリポジトリには **CPG - Group B** ウェブアプリケーションのソースコードが含まれています。 以下の手順に従って、リポジトリをクローンし、依存関係をインストールし、ローカルでプロジェクトを実行してください。
+このリポジトリには **CPG Matching Platform - Group B** ウェブアプリケーションのソースコードが含まれています。 以下の手順に従って、リポジトリをクローンし、依存関係をインストールし、ローカルでプロジェクトを実行してください。
 
 ---
 
@@ -28,12 +28,34 @@ git pull origin Demo/Trung-fe_v1
 cd cpg-web.v1
 ```
 
-### 5️⃣ Install dependencies | 依存関係をインストール
+### 5️⃣ Set up a virtual environment | 仮想環境をセットアップ
+#### Windows:
+```bash
+python -m venv .venv
+```
+
+#### macOS/Linux:
+```bash
+python3 -m venv .venv
+```
+
+### 6️⃣ Activate the virtual environment | 仮想環境をアクティブ化
+#### Windows:
+```bash
+./.venv/Scripts/activate
+```
+
+#### macOS/Linux:
+```bash
+source ./.venv/bin/activate
+```
+
+### 7️⃣ Install dependencies | 依存関係をインストール
 ```bash
 npm install
 ```
 
-### 6️⃣ Run the development server | 開発サーバーを実行
+### 8️⃣ Run the development server | 開発サーバーを実行
 ```bash
 npm run dev
 ```
