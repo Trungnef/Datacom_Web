@@ -1,17 +1,19 @@
-import React, { useEffect, useState } from "react";
-import axios from "./axiosConfig";
+import logo from './logo.svg';
+import './App.css';
+
+import React, { useEffect, useState } from 'react';
+import axios from './axiosConfig';  
 
 const App = () => {
-  const [message, setMessage] = useState("Please connect to backend");
+  const [message, setMessage] = useState('Connected to backend successfully');
 
   useEffect(() => {
-    axios
-      .get("/")
-      .then((response) => {
-        setMessage(response.data);
+    axios.get('/')  
+      .then(response => {
+        setMessage(response.data);  
       })
-      .catch((error) => {
-        console.error("Something wrongs about connect to backend:", error);
+      .catch(error => {
+        console.error('Something wrongs about connect to backend:', error);
       });
   }, []);
 
@@ -23,3 +25,4 @@ const App = () => {
 };
 
 export default App;
+

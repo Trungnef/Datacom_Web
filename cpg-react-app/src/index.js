@@ -1,24 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import Header from "./components/Header";
-import HeroBanner from "./components/HeroBanner";
-import MainSectionOne from "./components/main-section/mainSectionOne";
-import MainSectionTwo from "./components/main-section/mainSectionTwo";
-import NewArrivalItem from "./components/new-arrival/newArrivalItem";
-import OurProduct from "./components/our-product/ourProduct";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <HeroBanner />
-    <MainSectionOne />
-    <MainSectionTwo />
-    <NewArrivalItem />
-    <OurProduct />
     <App />
   </React.StrictMode>
 );
