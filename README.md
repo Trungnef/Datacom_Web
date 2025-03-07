@@ -100,7 +100,7 @@ cpg-web.v1/
 ## 👥 Contributors | 貢献者
 - [Trune] - Project Lead
 - [Woang Anh] - Developer (FullStack)
-- [Kiet (Limmm] - Developer (FullStack)
+- [Kiet (Limmm)] - Developer (FullStack)
 - [Zaiyr] - AI
 
 (Feel free to add your name and contributors here.)
